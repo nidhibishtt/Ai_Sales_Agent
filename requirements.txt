@@ -1,0 +1,87 @@
+# Enhanced AI Sales Agent - Production Requirements
+# Core Framework
+flask>=2.0.0                # Flask web framework
+flask-socketio>=5.0.0       # Flask-SocketIO for real-time communication
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+gunicorn>=21.2.0
+pydantic>=2.5.0
+
+# Premium LLM Providers (Enhanced Features)
+openai>=1.12.0              # GPT-4o integration
+openai>=1.12.0              # GPT-4o integration
+# google-generativeai>=0.1.0  # Gemini 1.5 Flash (disabled for Python 3.9)
+anthropic>=0.18.0           # Claude 3.5 Sonnet
+
+# Fallback LLM Providers
+groq>=0.4.0                 # Fast inference
+# transformers>=4.35.0        # HuggingFace models (disabled for Docker)
+# torch>=2.1.0                # PyTorch backend (disabled for Docker)
+
+# Enhanced Memory & Context (LangChain Integration)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+
+# Database & Storage
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0     # PostgreSQL (optional upgrade)
+alembic>=1.12.0             # Database migrations
+
+# Caching & Performance
+redis>=5.0.0                # Caching layer
+aioredis>=2.0.0             # Async Redis client
+python-multipart>=0.0.6    # File upload support
+
+# Security & Authentication
+python-jose[cryptography]>=3.3.0  # JWT tokens
+passlib[bcrypt]>=1.7.4             # Password hashing
+python-dotenv>=1.0.0               # Environment variables
+
+# Monitoring & Observability
+prometheus-client>=0.19.0   # Metrics collection
+structlog>=23.2.0           # Structured logging
+sentry-sdk>=1.38.0          # Error tracking
+
+# Rate Limiting & Throttling
+slowapi>=0.1.9              # Rate limiting
+limits>=3.6.0               # Rate limiting backend
+
+# HTTP & API
+httpx>=0.25.0               # HTTP client
+aiofiles>=23.2.0            # Async file operations
+python-slugify>=8.0.1       # URL-safe strings
+
+# Data Processing & Validation
+pandas>=2.1.0               # Data manipulation
+numpy>=1.24.0               # Numerical computing
+jsonschema>=4.19.0          # JSON validation
+
+
+# Natural Language Processing (Enhanced NER)
+spacy>=3.7.0                # NLP library
+regex>=2023.10.0            # Advanced regex
+fuzzywuzzy>=0.18.0          # Fuzzy string matching
+python-Levenshtein>=0.23.0  # String distance
+
+# Web Framework
+flask>=2.0.0
+flask-socketio>=5.0.0
+
+# Development & Testing (Dev Dependencies)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.9.0               # Code formatting
+flake8>=6.1.0               # Linting
+mypy>=1.6.0                 # Type checking
+
+# Production Server
+gunicorn>=21.2.0            # WSGI server
+uvloop>=0.19.0              # Fast event loop (Unix only)
+
+# Cloud & Deployment
+kubernetes>=28.1.0          # K8s Python client (if using Kubernetes)
+google-cloud-storage>=2.10.0  # GCS integration (optional)
+azure-storage-blob>=12.19.0   # Azure Blob (optional)
+boto3>=1.29.0               # AWS S3 (optional)

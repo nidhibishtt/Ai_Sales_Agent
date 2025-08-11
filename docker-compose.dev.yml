@@ -1,0 +1,38 @@
+# 🐳 AI Sales Agent - Development Docker Compose
+version: '3.8'
+
+services:
+  # 🤖 AI Sales Agent Application (Development)
+  ai-sales-agent-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-sales-agent-dev
+    command: ["python", "-c", "from ui.flask_app import app, socketio; socketio.run(app, host='0.0.0.0', port=5003, debug=True, allow_unsafe_werkzeug=True)"]
+    ports:
+      - "5003:5003"
+    environment:
+      - FLASK_ENV=development
+      - PORT=5003
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    env_file:
+      - .env
+    volumes:
+      # Mount source code for development (live reload)
+      - .:/app
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+    restart: unless-stopped
+    networks:
+      - ai-dev-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5003/api/system-status"]
+      interval: 60s
+      timeout: 10s
+      retries: 2
+
+# 🌐 Networks
+networks:
+  ai-dev-network:
+    driver: bridge

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AI Recruiting Copilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/new.css') }}" />
+    <script defer src="{{ url_for('static', filename='js/new_chat.js') }}"></script>
+</head>
+<body>
+    <div id="app" class="app-shell">
+        {% block body %}{% endblock %}
+    </div>
+    <template id="tpl-message">
+        <div class="msg" data-role="">
+            <div class="avatar"></div>
+            <div class="bubble">
+                <div class="content"></div>
+                <div class="meta"></div>
+            </div>
+        </div>
+    </template>
+    <template id="tpl-conversation-item">
+        <button class="conversation-item" data-id="">
+            <span class="title"></span>
+            <span class="count"></span>
+        </button>
+    </template>
+</body>
+</html>

@@ -1,0 +1,451 @@
+2025-08-10 23:57:17,724 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-10 23:57:17,779 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-10 23:57:17,780 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-10 23:57:17,920 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-10 23:57:17,920 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-10 23:57:17,921 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-10 23:57:17,926 - orchestrator - INFO - Registered agent: greeter
+2025-08-10 23:57:17,926 - orchestrator - INFO - Registered agent: extractor
+2025-08-10 23:57:17,926 - orchestrator - INFO - Registered agent: recommender
+2025-08-10 23:57:17,926 - orchestrator - INFO - Registered agent: writer
+2025-08-10 23:57:17,926 - orchestrator - INFO - Registered agent: follow_up
+2025-08-10 23:57:17,926 - utils.helpers - INFO - Registered 5 agents
+2025-08-10 23:57:17,926 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-10 23:57:17,930 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-10 23:57:17,931 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-10 23:57:17,939 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-10 23:57:17,939 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-10 23:57:18,858 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.6:5003
+2025-08-10 23:57:18,858 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-10 23:57:18,858 - werkzeug - INFO -  * Restarting with stat
+2025-08-10 23:57:19,341 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-10 23:57:19,378 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-10 23:57:19,378 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-10 23:57:19,490 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-10 23:57:19,490 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-10 23:57:19,490 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-10 23:57:19,491 - orchestrator - INFO - Registered agent: greeter
+2025-08-10 23:57:19,491 - orchestrator - INFO - Registered agent: extractor
+2025-08-10 23:57:19,491 - orchestrator - INFO - Registered agent: recommender
+2025-08-10 23:57:19,491 - orchestrator - INFO - Registered agent: writer
+2025-08-10 23:57:19,491 - orchestrator - INFO - Registered agent: follow_up
+2025-08-10 23:57:19,491 - utils.helpers - INFO - Registered 5 agents
+2025-08-10 23:57:19,491 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-10 23:57:19,496 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-10 23:57:19,496 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-10 23:57:19,506 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-10 23:57:19,506 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-10 23:57:19,523 - werkzeug - WARNING -  * Debugger is active!
+2025-08-10 23:57:19,532 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-10 23:57:22,131 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLFBk3 HTTP/1.1" 200 -
+2025-08-10 23:57:22,140 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:22] "POST /socket.io/?EIO=4&transport=polling&t=PYLFBkO&sid=RAfD66CIDVj8Z4bQAAAA HTTP/1.1" 200 -
+2025-08-10 23:57:22,144 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLFBkU&sid=RAfD66CIDVj8Z4bQAAAA HTTP/1.1" 200 -
+2025-08-10 23:57:22,152 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLFBkb&sid=RAfD66CIDVj8Z4bQAAAA HTTP/1.1" 200 -
+2025-08-10 23:57:22,159 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLFBkj&sid=RAfD66CIDVj8Z4bQAAAA HTTP/1.1" 200 -
+2025-08-10 23:57:23,337 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:23] "GET / HTTP/1.1" 200 -
+2025-08-10 23:57:24,331 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-10 23:57:24,332 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-08-10 23:57:24,626 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /socket.io/?EIO=4&transport=polling&t=PYLFCLG HTTP/1.1" 200 -
+2025-08-10 23:57:24,643 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-10 23:57:24,807 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "POST /socket.io/?EIO=4&transport=polling&t=PYLFCO4&sid=gZQDt7mofTBEaUvIAAAC HTTP/1.1" 200 -
+2025-08-10 23:57:24,807 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /socket.io/?EIO=4&transport=polling&t=PYLFCO5&sid=gZQDt7mofTBEaUvIAAAC HTTP/1.1" 200 -
+2025-08-10 23:57:24,843 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:24] "GET /socket.io/?EIO=4&transport=polling&t=PYLFCOg&sid=gZQDt7mofTBEaUvIAAAC HTTP/1.1" 200 -
+2025-08-10 23:57:29,765 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 23:57:29,788 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:29] "POST /api/chat HTTP/1.1" 200 -
+2025-08-10 23:57:32,269 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:32] "GET /socket.io/?EIO=4&transport=websocket&sid=gZQDt7mofTBEaUvIAAAC HTTP/1.1" 200 -
+2025-08-10 23:57:32,270 - werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 23:57:32] "GET /socket.io/?EIO=4&transport=websocket&sid=RAfD66CIDVj8Z4bQAAAA HTTP/1.1" 200 -
+2025-08-11 00:02:20,969 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/demo_success.py', reloading
+2025-08-11 00:02:21,162 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:21,885 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:21,937 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:21,938 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:22,081 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:22,082 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:22,082 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:22,085 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:22,085 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:22,085 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:22,085 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:22,085 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:22,085 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:22,085 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:22,090 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:22,090 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:22,101 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:22,101 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:22,119 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:22,128 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:29,429 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/test_fintech_unit.py', reloading
+2025-08-11 00:02:29,559 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:30,234 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:30,291 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:30,291 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:30,440 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:30,440 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:30,440 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:30,441 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:30,441 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:30,441 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:30,441 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:30,442 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:30,442 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:30,442 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:30,446 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:30,446 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:30,456 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:30,456 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:30,475 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:30,483 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:31,571 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/test_exact_case.py', reloading
+2025-08-11 00:02:31,699 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:32,131 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:32,170 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:32,170 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:32,277 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:32,277 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:32,277 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:32,278 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:32,278 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:32,278 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:32,278 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:32,278 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:32,278 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:32,278 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:32,282 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:32,282 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:32,291 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:32,291 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:32,307 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:32,314 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:34,414 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/test_fintech_fixed.py', reloading
+2025-08-11 00:02:34,532 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:35,024 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:35,062 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:35,062 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:35,173 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:35,173 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:35,173 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:35,174 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:35,174 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:35,174 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:35,174 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:35,174 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:35,174 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:35,174 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:35,179 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:35,179 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:35,187 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:35,187 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:35,202 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:35,211 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:36,291 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/test_agent_response.py', reloading
+2025-08-11 00:02:36,642 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:37,108 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:37,146 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:37,146 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:37,257 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:37,257 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:37,257 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:37,258 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:37,258 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:37,258 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:37,258 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:37,258 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:37,258 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:37,258 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:37,263 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:37,263 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:37,272 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:37,272 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:37,291 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:37,299 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:38,372 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/test_fintech_scenario.py', reloading
+2025-08-11 00:02:38,507 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:02:38,982 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:39,019 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:39,019 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:39,127 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:39,127 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:39,127 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:39,128 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:39,128 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:39,128 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:39,128 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:39,128 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:39,128 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:39,128 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:39,133 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:39,133 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:39,142 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:39,142 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:39,157 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:02:39,166 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:02:56,827 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:02:56,881 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:56,881 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:57,018 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:57,018 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:02:57,018 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:02:57,020 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:02:57,020 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:02:57,020 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:02:57,020 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:02:57,020 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:02:57,020 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:02:57,020 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:02:57,024 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:02:57,025 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:02:57,036 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:02:57,036 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:04:23,018 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:04:23,071 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:04:23,072 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:04:23,210 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:04:23,210 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:04:23,210 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:04:23,214 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:04:23,214 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:04:23,214 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:04:23,214 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:04:23,214 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:04:23,214 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:04:23,214 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:04:23,218 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:04:23,218 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:04:23,227 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:04:23,227 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:04:23,294 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.6:5003
+2025-08-11 00:04:23,294 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-11 00:04:23,295 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:04:23,702 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:04:23,735 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:04:23,735 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:04:23,832 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:04:23,833 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:04:23,833 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:04:23,833 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:04:23,833 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:04:23,833 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:04:23,834 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:04:23,834 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:04:23,834 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:04:23,834 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:04:23,838 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:04:23,838 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:04:23,847 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:04:23,847 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:04:23,861 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:04:23,868 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:04:27,447 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:27] "GET / HTTP/1.1" 200 -
+2025-08-11 00:04:27,575 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:04:27,590 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:04:28,115 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:28] "GET /socket.io/?EIO=4&transport=polling&t=PYLGpj1 HTTP/1.1" 200 -
+2025-08-11 00:04:28,121 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:28] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-11 00:04:28,282 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:28] "POST /socket.io/?EIO=4&transport=polling&t=PYLGpmt&sid=RQD0u-WX7AlQLNflAAAA HTTP/1.1" 200 -
+2025-08-11 00:04:28,285 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:28] "GET /socket.io/?EIO=4&transport=polling&t=PYLGpmv&sid=RQD0u-WX7AlQLNflAAAA HTTP/1.1" 200 -
+2025-08-11 00:04:28,301 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:28] "GET /socket.io/?EIO=4&transport=polling&t=PYLGpnC&sid=RQD0u-WX7AlQLNflAAAA HTTP/1.1" 200 -
+2025-08-11 00:04:34,980 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:04:34,997 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:04:34] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:05:41,055 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:05:41,061 - services.llm_service - WARNING - Gemini provider unavailable: module 'google.generativeai' has no attribute 'GenerativeModel'
+2025-08-11 00:05:41,067 - services.llm_service - WARNING - OpenAI provider unavailable: No module named 'openai'
+2025-08-11 00:05:41,067 - services.llm_service - WARNING - DeepSeek provider unavailable: No module named 'openai'
+2025-08-11 00:05:41,067 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:05:41,067 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:05:41,067 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'claude', 'mock'])
+2025-08-11 00:05:41,070 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:05:41,070 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:05:41,070 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:05:41,070 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:05:41,070 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:05:41,070 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:05:41,070 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:05:41,075 - services.llm_service - WARNING - Gemini provider unavailable: module 'google.generativeai' has no attribute 'GenerativeModel'
+2025-08-11 00:05:41,081 - services.llm_service - WARNING - OpenAI provider unavailable: No module named 'openai'
+2025-08-11 00:05:41,081 - services.llm_service - WARNING - DeepSeek provider unavailable: No module named 'openai'
+2025-08-11 00:05:41,081 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:05:41,081 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:05:41,362 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:05:41,377 - orchestrator - INFO - Routing to agent: greeter for session: 2441248f-a43a-4d1a-8a24-3be2197494e6
+2025-08-11 00:05:41,377 - agent.greeter - INFO - Agent greeter - Action: processing_greeting - Session: 2441248f-a43a-4d1a-8a24-3be2197494e6
+2025-08-11 00:05:41,700 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:05:41,705 - agent.greeter - INFO - Agent greeter - Action: greeting_completed - Session: 2441248f-a43a-4d1a-8a24-3be2197494e6
+2025-08-11 00:05:41,706 - utils.helpers - INFO - Started conversation 2441248f-a43a-4d1a-8a24-3be2197494e6 with initial message
+2025-08-11 00:05:41,706 - utils.helpers - ERROR - Error processing message: Error binding parameter 0 - probably unsupported type.
+2025-08-11 00:07:25,708 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:07:25,902 - services.llm_service - WARNING - Gemini provider unavailable: module 'google.generativeai' has no attribute 'GenerativeModel'
+2025-08-11 00:07:25,988 - services.llm_service - WARNING - OpenAI provider unavailable: No module named 'openai'
+2025-08-11 00:07:25,988 - services.llm_service - WARNING - DeepSeek provider unavailable: No module named 'openai'
+2025-08-11 00:07:25,988 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:07:25,988 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:07:25,989 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'claude', 'mock'])
+2025-08-11 00:07:25,993 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:07:25,993 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:07:25,993 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:07:25,993 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:07:25,993 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:07:25,993 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:07:25,993 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:07:25,996 - orchestrator - INFO - Routing to agent: greeter for session: c9e10127-2d25-4338-96bf-d42054eac16a
+2025-08-11 00:07:25,996 - agent.greeter - INFO - Agent greeter - Action: processing_greeting - Session: c9e10127-2d25-4338-96bf-d42054eac16a
+2025-08-11 00:07:26,295 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:07:26,320 - agent.greeter - INFO - Agent greeter - Action: greeting_completed - Session: c9e10127-2d25-4338-96bf-d42054eac16a
+2025-08-11 00:07:26,321 - utils.helpers - INFO - Started conversation c9e10127-2d25-4338-96bf-d42054eac16a with initial message
+2025-08-11 00:07:26,321 - utils.helpers - ERROR - Error processing message: Error binding parameter 0 - probably unsupported type.
+2025-08-11 00:07:53,557 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:07:53,611 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:07:53,611 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:07:53,755 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:07:53,755 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:07:53,755 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:07:53,760 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:07:53,760 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:07:53,760 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:07:53,760 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:07:53,760 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:07:53,760 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:07:53,760 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:07:53,766 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:07:53,766 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:07:53,776 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:07:53,776 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:07:53,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.6:5003
+2025-08-11 00:07:53,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-11 00:07:53,803 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:07:54,242 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:07:54,277 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:07:54,277 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:07:54,383 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:07:54,383 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:07:54,383 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:07:54,384 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:07:54,384 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:07:54,384 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:07:54,384 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:07:54,384 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:07:54,384 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:07:54,384 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:07:54,389 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:07:54,389 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:07:54,398 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:07:54,398 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:07:54,414 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:07:54,424 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:07:55,308 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "GET /?id=07823d15-136d-4129-a728-5ce924fc373a&vscodeBrowserReqId=1754851075301 HTTP/1.1" 200 -
+2025-08-11 00:07:55,324 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:07:55,326 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:07:55,367 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PYLHcKc HTTP/1.1" 200 -
+2025-08-11 00:07:55,369 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-11 00:07:55,389 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PYLHcKu&sid=RxEt9ozfUMIB-udaAAAA HTTP/1.1" 200 -
+2025-08-11 00:07:55,392 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PYLHcKy&sid=RxEt9ozfUMIB-udaAAAA HTTP/1.1" 200 -
+2025-08-11 00:07:55,398 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PYLHcL4&sid=RxEt9ozfUMIB-udaAAAA HTTP/1.1" 200 -
+2025-08-11 00:07:59,117 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:59] "GET /socket.io/?EIO=4&transport=polling&t=PYLHdFA HTTP/1.1" 200 -
+2025-08-11 00:07:59,124 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:59] "POST /socket.io/?EIO=4&transport=polling&t=PYLHdFG&sid=-M_kfHponP_LTCL-AAAC HTTP/1.1" 200 -
+2025-08-11 00:07:59,124 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:59] "GET /socket.io/?EIO=4&transport=polling&t=PYLHdFI&sid=-M_kfHponP_LTCL-AAAC HTTP/1.1" 200 -
+2025-08-11 00:07:59,129 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:07:59] "GET /socket.io/?EIO=4&transport=polling&t=PYLHdFN&sid=-M_kfHponP_LTCL-AAAC HTTP/1.1" 200 -
+2025-08-11 00:08:01,061 - orchestrator - INFO - Routing to agent: greeter for session: f90a9b07-2558-4a4e-9fae-e47f619d9fe1
+2025-08-11 00:08:01,061 - agent.greeter - INFO - Agent greeter - Action: processing_greeting - Session: f90a9b07-2558-4a4e-9fae-e47f619d9fe1
+2025-08-11 00:08:01,571 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:08:01,582 - agent.greeter - INFO - Agent greeter - Action: greeting_completed - Session: f90a9b07-2558-4a4e-9fae-e47f619d9fe1
+2025-08-11 00:08:01,582 - utils.helpers - INFO - Started conversation f90a9b07-2558-4a4e-9fae-e47f619d9fe1 with initial message
+2025-08-11 00:08:01,857 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:08:01,859 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:01] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:08:22,461 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET / HTTP/1.1" 200 -
+2025-08-11 00:08:22,477 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:08:22,477 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:08:22,735 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLHj0C HTTP/1.1" 200 -
+2025-08-11 00:08:22,742 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-11 00:08:22,899 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "POST /socket.io/?EIO=4&transport=polling&t=PYLHj2k&sid=lWdGJpzWiVOwnolTAAAE HTTP/1.1" 200 -
+2025-08-11 00:08:22,902 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLHj2l&sid=lWdGJpzWiVOwnolTAAAE HTTP/1.1" 200 -
+2025-08-11 00:08:22,920 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLHj36&sid=lWdGJpzWiVOwnolTAAAE HTTP/1.1" 200 -
+2025-08-11 00:08:22,934 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:22] "GET /socket.io/?EIO=4&transport=polling&t=PYLHj3G&sid=lWdGJpzWiVOwnolTAAAE HTTP/1.1" 200 -
+2025-08-11 00:08:26,562 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET / HTTP/1.1" 200 -
+2025-08-11 00:08:26,568 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:08:26,568 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:08:26,579 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:08:26,583 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:08:26,661 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /socket.io/?EIO=4&transport=polling&t=PYLHjzY HTTP/1.1" 200 -
+2025-08-11 00:08:26,668 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "POST /socket.io/?EIO=4&transport=polling&t=PYLHjzf&sid=dSV3gR0Tx0JlnvD1AAAG HTTP/1.1" 200 -
+2025-08-11 00:08:26,671 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /socket.io/?EIO=4&transport=polling&t=PYLHjzh&sid=dSV3gR0Tx0JlnvD1AAAG HTTP/1.1" 200 -
+2025-08-11 00:08:26,674 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-11 00:08:26,676 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /socket.io/?EIO=4&transport=polling&t=PYLHjzp&sid=dSV3gR0Tx0JlnvD1AAAG HTTP/1.1" 200 -
+2025-08-11 00:08:26,877 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /socket.io/?EIO=4&transport=websocket&sid=lWdGJpzWiVOwnolTAAAE HTTP/1.1" 200 -
+2025-08-11 00:08:26,910 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /new HTTP/1.1" 200 -
+2025-08-11 00:08:26,911 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "[36mGET /static/css/new.css HTTP/1.1[0m" 304 -
+2025-08-11 00:08:26,912 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:26] "GET /static/js/new_chat.js HTTP/1.1" 200 -
+2025-08-11 00:08:27,109 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:08:27] "GET /socket.io/?EIO=4&transport=websocket&sid=dSV3gR0Tx0JlnvD1AAAG HTTP/1.1" 200 -
+2025-08-11 00:09:11,244 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "GET / HTTP/1.1" 200 -
+2025-08-11 00:09:11,249 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:09:11,249 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:09:11,295 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-11 00:09:11,302 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-11 00:09:11,398 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "GET /socket.io/?EIO=4&transport=polling&t=PYLHuuY HTTP/1.1" 200 -
+2025-08-11 00:09:11,407 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "POST /socket.io/?EIO=4&transport=polling&t=PYLHuui&sid=9-c4ZyZFPuT9xB1rAAAI HTTP/1.1" 200 -
+2025-08-11 00:09:11,409 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "GET /socket.io/?EIO=4&transport=polling&t=PYLHuuk&sid=9-c4ZyZFPuT9xB1rAAAI HTTP/1.1" 200 -
+2025-08-11 00:09:11,411 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "GET /api/system-status HTTP/1.1" 200 -
+2025-08-11 00:09:11,411 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:11] "GET /socket.io/?EIO=4&transport=polling&t=PYLHuuo&sid=9-c4ZyZFPuT9xB1rAAAI HTTP/1.1" 200 -
+2025-08-11 00:09:14,671 - orchestrator - INFO - Routing to agent: extractor for session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:14,671 - agent.extractor - INFO - Agent extractor - Action: processing_extraction - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:14,975 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:09:14,983 - agent.extractor - INFO - Agent extractor - Action: extraction_completed - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:14,984 - utils.helpers - INFO - Started conversation a9f38f5d-453e-49ac-8098-cb4396b38d7f with initial message
+2025-08-11 00:09:15,278 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:09:15,280 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:15] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:09:58,561 - orchestrator - INFO - Routing to agent: greeter for session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:58,562 - agent.greeter - INFO - Agent greeter - Action: processing_greeting - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:59,002 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:09:59,010 - agent.greeter - INFO - Agent greeter - Action: greeting_completed - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:09:59,011 - utils.helpers - INFO - Processed message in session a9f38f5d-453e-49ac-8098-cb4396b38d7f, routed to greeter
+2025-08-11 00:09:59,503 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:09:59,506 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:09:59] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:10:14,982 - orchestrator - INFO - Routing to agent: recommender for session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:14,982 - agent.recommender - INFO - Agent recommender - Action: processing_recommendation - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:14,994 - agent.recommender - INFO - Agent recommender - Action: recommendation_completed - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:14,994 - utils.helpers - INFO - Processed message in session a9f38f5d-453e-49ac-8098-cb4396b38d7f, routed to recommender
+2025-08-11 00:10:15,266 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:10:15,280 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:10:15] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:10:42,128 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:10:42] "GET /socket.io/?EIO=4&transport=websocket&sid=-M_kfHponP_LTCL-AAAC HTTP/1.1" 200 -
+2025-08-11 00:10:48,790 - orchestrator - INFO - Routing to agent: writer for session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:48,790 - agent.writer - INFO - Agent writer - Action: processing_proposal - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:49,596 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:10:50,017 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:10:50,030 - agent.writer - INFO - Agent writer - Action: proposal_generated - Session: a9f38f5d-453e-49ac-8098-cb4396b38d7f
+2025-08-11 00:10:50,032 - utils.helpers - INFO - Processed message in session a9f38f5d-453e-49ac-8098-cb4396b38d7f, routed to writer
+2025-08-11 00:10:50,311 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-11 00:10:50,314 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:10:50] "POST /api/chat HTTP/1.1" 200 -
+2025-08-11 00:10:57,577 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:10:57] "GET /socket.io/?EIO=4&transport=websocket&sid=9-c4ZyZFPuT9xB1rAAAI HTTP/1.1" 200 -
+2025-08-11 00:11:04,873 - werkzeug - INFO -  * Detected change in '/Users/vidhusinha/Desktop/Project/quick_test.py', reloading
+2025-08-11 00:11:05,004 - werkzeug - INFO -  * Restarting with stat
+2025-08-11 00:11:05,686 - utils.helpers - INFO - Initializing Enhanced AI Sales Agent
+2025-08-11 00:11:05,742 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:11:05,742 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:11:05,882 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:11:05,882 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:11:05,882 - utils.helpers - INFO - Active LLM provider: groq (available: ['groq', 'openai', 'deepseek', 'mock'])
+2025-08-11 00:11:05,883 - orchestrator - INFO - Registered agent: greeter
+2025-08-11 00:11:05,883 - orchestrator - INFO - Registered agent: extractor
+2025-08-11 00:11:05,883 - orchestrator - INFO - Registered agent: recommender
+2025-08-11 00:11:05,883 - orchestrator - INFO - Registered agent: writer
+2025-08-11 00:11:05,883 - orchestrator - INFO - Registered agent: follow_up
+2025-08-11 00:11:05,883 - utils.helpers - INFO - Registered 5 agents
+2025-08-11 00:11:05,883 - utils.helpers - INFO - Enhanced AI Sales Agent initialized successfully
+2025-08-11 00:11:05,888 - services.llm_service - WARNING - Gemini provider unavailable: No module named 'google.generativeai'
+2025-08-11 00:11:05,888 - services.llm_service - WARNING - Claude provider unavailable: No module named 'anthropic'
+2025-08-11 00:11:05,898 - services.llm_service - INFO - HF provider not available: No module named 'transformers'
+2025-08-11 00:11:05,898 - services.llm_service - INFO - LLM provider selected: groq
+2025-08-11 00:11:05,919 - werkzeug - WARNING -  * Debugger is active!
+2025-08-11 00:11:05,926 - werkzeug - INFO -  * Debugger PIN: 978-498-349
+2025-08-11 00:11:06,486 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PYLIK-e HTTP/1.1" 200 -
+2025-08-11 00:11:06,500 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:11:06] "POST /socket.io/?EIO=4&transport=polling&t=PYLIK-y&sid=psglXwA9QBuMxEFYAAAA HTTP/1.1" 200 -
+2025-08-11 00:11:06,501 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PYLIK--&sid=psglXwA9QBuMxEFYAAAA HTTP/1.1" 200 -
+2025-08-11 00:11:06,507 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PYLIK_8&sid=psglXwA9QBuMxEFYAAAA HTTP/1.1" 200 -
+2025-08-11 00:11:21,959 - werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 00:11:21] "GET /socket.io/?EIO=4&transport=websocket&sid=psglXwA9QBuMxEFYAAAA HTTP/1.1" 200 -

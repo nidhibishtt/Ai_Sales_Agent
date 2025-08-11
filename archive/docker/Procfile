@@ -1,0 +1,16 @@
+# Heroku Procfile for AI Sales Agent
+
+# Web process for API server
+web: uvicorn api:app --host 0.0.0.0 --port $PORT
+
+# Alternative: Streamlit web interface
+# web: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+
+# Background worker for processing conversations
+worker: python -m workers.conversation_worker
+
+# Release phase for database migrations
+release: python scripts/setup_database.py
+
+# One-time setup task
+setup: python scripts/initial_setup.py

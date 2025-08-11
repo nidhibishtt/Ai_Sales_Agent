@@ -1,0 +1,71 @@
+{% extends 'new_base.html' %}
+{% block body %}
+<aside class="sidebar" id="sidebar">
+  <div class="brand"> <span class="logo">🚀</span> <span>AI Recruiting Copilot</span></div>
+  <div class="section">
+    <div class="section-head">
+      <span>Conversations</span>
+      <button class="tiny" id="btnNewConversation" title="New Conversation">＋</button>
+    </div>
+    <div id="convoList" class="convo-list empty">No conversations yet</div>
+  </div>
+  <div class="section">
+    <div class="section-head">
+      <span>Entities</span>
+      <button class="tiny" id="btnRefreshEntities" title="Refresh Entities">⟳</button>
+    </div>
+    <div id="entityPanel" class="entity-panel">
+      <p class="placeholder">No entities extracted</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-head"><span>Settings</span></div>
+    <div class="settings-group">
+      <label>Temperature <input type="range" id="cfgTemp" min="0" max="1" step="0.1" value="0.2" /></label>
+      <label>Max Tokens <input type="number" id="cfgMaxTokens" min="100" max="2000" value="600" /></label>
+      <label><input type="checkbox" id="cfgStreaming" checked /> Streaming</label>
+      <label><input type="checkbox" id="cfgTyping" checked /> Typing indicator</label>
+    </div>
+  </div>
+  <div class="footer">
+    <button id="btnExport" class="secondary small">Export</button>
+    <button id="btnToggleTheme" class="secondary small">Theme</button>
+  </div>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div class="breadcrumbs"><span id="currentConversationTitle">New Conversation</span></div>
+    <div class="actions">
+      <button id="btnSummarize" class="ghost">Summarize</button>
+      <button id="btnClear" class="ghost">Clear</button>
+    </div>
+  </header>
+
+  <section class="chat" id="chatScroll">
+    <div class="welcome">
+      <h2>👋 Welcome</h2>
+      <p>I’m your AI recruiting assistant. Describe a hiring requirement or paste a job description to begin.</p>
+      <div class="quick-grid" id="quickPrompts">
+        <button data-prompt="We need 3 senior backend engineers (Python, Django) in Bangalore">Backend Engineers</button>
+        <button data-prompt="Hiring a product manager for a fintech app in Mumbai, urgent">Product Manager</button>
+        <button data-prompt="Looking for a remote data scientist with NLP experience">Data Scientist</button>
+        <button data-prompt="Need 5 senior React developers for healthcare SaaS in Bangalore ASAP">React Team</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="composer">
+    <textarea id="inputMessage" rows="1" placeholder="Type a message... (Shift+Enter = newline)"></textarea>
+    <div class="composer-actions">
+      <input type="file" id="fileUpload" hidden />
+      <button id="btnUpload" class="ghost" title="Upload Job Description">📄</button>
+      <button id="btnSend" class="primary">Send ▷</button>
+    </div>
+    <div class="hint">Enter to send • Shift+Enter for new line</div>
+  </section>
+</main>
+
+<div id="toastHost" class="toasts"></div>
+<div id="loading" class="loading hidden"><div class="spinner"></div><span>Thinking…</span></div>
+{% endblock %}
