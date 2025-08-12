@@ -182,6 +182,8 @@ Each package includes customized features, timelines, and pricing based on clien
 ### Environment Variables (.env)
 ```bash
 # Required
+# You can create a free Groq API key here: https://groq.com
+# This key is required to run the application.
 GROQ_API_KEY=your_groq_api_key_here
 
 # Optional LLM Providers
