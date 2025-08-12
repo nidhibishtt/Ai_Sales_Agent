@@ -274,12 +274,6 @@ lsof -ti:5003 | xargs kill -9
 **4. Database errors**
 - Delete `enhanced_sales_agent.db` and restart
 
-## 📞 Support
-
-For issues and questions:
-1. Check the troubleshooting section
-2. Review logs in terminal output
-3. Test with diagnostic script: `python3 quick_test.py`
 
 ## 🔄 Recent Updates
 
@@ -288,6 +282,4 @@ For issues and questions:
 - ✅ **Enhanced NER**: Improved entity extraction accuracy
 - ✅ **UI Improvements**: Better conversation flow and error handling
 
----
 
-**Built with ❤️ for modern recruitment agencies**
