@@ -40,9 +40,9 @@ python3 main.py
 
 🌐 **Access**: Open http://127.0.0.1:5003 in your browser
 
-### 🎯 **Multiple Ways to Start the App:**
+###  **Multiple Ways to Start the App:**
 
-1. **🐳 Docker (Recommended for Production):**
+1. ** Docker (Recommended for Production):**
    ```bash
    # Development mode
    ./docker-start-dev.sh
@@ -101,7 +101,7 @@ User: "Can you prepare a proposal for the Tech Startup package?"
 Bot: → Generates customized proposal → Provides next steps
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Core Components
 
@@ -139,45 +139,45 @@ Bot: → Generates customized proposal → Provides next steps
 
 ### Agent Flow
 ```
-1. 👋 GREETER → Welcome user, understand initial context
-2. 🔍 EXTRACTOR → Extract hiring requirements (roles, location, urgency)
-3. 🎯 RECOMMENDER → Suggest relevant service packages
-4. ✍️ WRITER → Generate personalized proposals
-5. 📞 FOLLOW_UP → Schedule calls, next steps
+1.  GREETER → Welcome user, understand initial context
+2.  EXTRACTOR → Extract hiring requirements (roles, location, urgency)
+3.  RECOMMENDER → Suggest relevant service packages
+4.  WRITER → Generate personalized proposals
+5.  FOLLOW_UP → Schedule calls, next steps
 ```
 
-## ⚡ Key Features
+##  Key Features
 
-### 🧠 **Advanced AI Capabilities**
+###  **Advanced AI Capabilities**
 - **Multi-Agent Architecture**: 5 specialized agents for different conversation stages
 - **Groq Llama 3.3-70B**: Latest high-performance language model
 - **Few-Shot Learning**: Template-based proposal generation
 - **Advanced NER**: Entity extraction for hiring requirements
 
-### 💼 **Business Logic**
+###  **Business Logic**
 - **Service Packages**: Pre-defined recruitment service tiers
 - **Dynamic Pricing**: Context-aware price estimation
 - **Timeline Estimation**: Urgency-based delivery timelines
 - **Success Metrics**: Package success rates and guarantees
 
-### 🔄 **Conversation Management**
+###  **Conversation Management**
 - **Memory System**: Context preservation across messages
 - **Smart Routing**: Intent-based agent selection
 - **Error Handling**: Graceful fallbacks and error recovery
 - **Analytics**: Conversation flow and performance metrics
 
-## 🎯 Service Packages
+##  Service Packages
 
 The system offers 4 main service packages:
 
-1. **🚀 Tech Startup Hiring Pack** - For startups and tech companies
-2. **🏢 Volume Hiring Package** - For large-scale recruitment
-3. **⭐ Executive Search Premium** - For senior leadership roles
-4. **💨 Quick Hire Express** - For urgent hiring needs
+1. ** Tech Startup Hiring Pack** - For startups and tech companies
+2. ** Volume Hiring Package** - For large-scale recruitment
+3. ** Executive Search Premium** - For senior leadership roles
+4. ** Quick Hire Express** - For urgent hiring needs
 
 Each package includes customized features, timelines, and pricing based on client requirements.
 
-## 🛠️ Configuration
+##  Configuration
 
 ### Environment Variables (.env)
 ```bash
@@ -199,7 +199,7 @@ PORT=5003
 3. **Claude** (If key provided)
 4. **Mock** (Fallback for testing)
 
-## 📈 Monitoring & Analytics
+##  Monitoring & Analytics
 
 Access real-time system status at: `http://localhost:5003/api/system-status`
 
@@ -229,7 +229,7 @@ python3 test_fintech_scenario.py
 ### Adding New Service Packages
 Edit `data/packages.json` to add new service offerings.
 
-## 📚 API Reference
+##  API Reference
 
 ### Main Endpoints
 - `GET /` - Main chat interface
@@ -237,7 +237,7 @@ Edit `data/packages.json` to add new service offerings.
 - `GET /api/system-status` - System health check
 - `WebSocket /socket.io` - Real-time chat communication
 
-## 🎨 UI Features
+##  UI Features
 
 - **Real-time Chat**: WebSocket-powered instant messaging
 - **Typing Indicators**: Show when AI is processing
@@ -245,41 +245,10 @@ Edit `data/packages.json` to add new service offerings.
 - **Responsive Design**: Works on desktop and mobile
 - **Dark/Light Theme**: User preference support
 
-## 📋 System Requirements
+##  System Requirements
 
 - **Memory**: 2GB RAM minimum
 - **Storage**: 1GB free space
 - **Network**: Internet connection for LLM API calls
 - **Browser**: Modern browser with WebSocket support
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-**1. "No module named 'groq'"**
-```bash
-pip install groq
-```
-
-**2. "LLM provider unavailable"**
-- Check your API key in `.env` file
-- Verify API key is valid and has credits
-
-**3. "Port 5003 already in use"**
-```bash
-# Kill existing process
-lsof -ti:5003 | xargs kill -9
-```
-
-**4. Database errors**
-- Delete `enhanced_sales_agent.db` and restart
-
-
-## 🔄 Recent Updates
-
-- ✅ **Model Upgrade**: Groq Llama 3.1-8B → 3.3-70B (9x better performance)
-- ✅ **Bug Fixes**: Proposal generation and routing logic
-- ✅ **Enhanced NER**: Improved entity extraction accuracy
-- ✅ **UI Improvements**: Better conversation flow and error handling
-
 
